@@ -17,7 +17,6 @@ describe('App method', () => {
   it('should fetch valid application data', () => {
     return store.app({appId: validApp.appId})
       .then((app) => {
-        console.log('APP:', app);
         assert.isNotNull(app);
         assert.equal(app.id, validApp.appId);
         assert.include(app.title, validApp.title);
