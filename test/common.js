@@ -1,10 +1,10 @@
 'use strict';
 
-const assert = require('chai').assert;
-const { isASIN } = require('../lib/common');
+import { assert } from 'chai';
+import { isASIN } from '../lib/common.js';
 
 function assertValidAsin (id) {
   return assert(isASIN(id), `${id} is not a valid asin`);
 }
 
-module.exports = { assertValidAsin };
+export { assertValidAsin };
