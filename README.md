@@ -4,13 +4,14 @@ Node.js module to scrape application data from the Amazon App store.
 ## Related Projects
 * [galaxy-store-scraper](https://github.com/KR1470R/galaxy-store-scraper): a scraper with a similar interface for the Galaxy App Store.
 * [roku-store-scraper](https://github.com/KR1470R/roku-store-scraper): a scraper with a similar interface for the Roku App Store.
+* [samsung-app-store-scraper](https://github.com/KR1470R/samsung-app-store-scraper): a scraper with a similar interface for the Samsung App Store.
 
 ## Inspired by projects:
 * [app-store-scraper](https://github.com/facundoolano/app-store-scraper): a scraper with a similar interface for the iTunes app store.
-* [google-play-scraper](https://github.com/facundoolano/google-play-scraper):  a scraper with a similar interface for the Google Play.
+* [google-play-scraper](https://github.com/facundoolano/google-play-scraper): a scraper with a similar interface for the Google Play.
 
 ## ⚠️ Notes
-This project is under development, thus a lot of things(most) are not implemented yet.
+This project is under development, thus a lot of things(most) are not implemented yet.\
 **Feel free to contribute!**
 
 The API contract of this module adhered to the contract of the projects listed above.
