@@ -1,6 +1,6 @@
 {
   "name": "amazon-app-store-scraper",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Amazon App Store Scrapper for fetching all useful data from app page",
   "main": "index.js",
   "repository": {
@@ -26,6 +26,7 @@
   "dependencies": {
     "cheerio": "0.22.0",
     "memoizee": "^0.4.17",
+    "puppeteer": "^24.9.0",
     "ramda": "^0.30.1"
   },
   "devDependencies": {
